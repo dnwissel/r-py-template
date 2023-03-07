@@ -185,3 +185,4 @@ rsconnect/
 
 ## R specific
 renv*/
+.Rproj.user
