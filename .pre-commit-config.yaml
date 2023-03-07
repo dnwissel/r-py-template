@@ -9,11 +9,6 @@ repos:
       - id: style-files
         args:
           ['--ignore-start="^# styler: off$"', '--ignore-stop="^# styler: on$"']
-      - id: roxygenize
-        additional_dependencies:
-          - r-lib/pkgapi
-          - dplyr@1.0.9
-          - roxygen2@7.2.2
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
